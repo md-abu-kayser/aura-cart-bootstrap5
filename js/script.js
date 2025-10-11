@@ -396,7 +396,7 @@ class NewsletterManager {
   }
 
   showSuccess() {
-    // You could integrate with the ProductManager's notification system
+    // I could integrate with the ProductManager's notification system
     alert("Thank you for subscribing! You will receive our newsletter soon.");
   }
 }
