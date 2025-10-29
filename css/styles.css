@@ -1,6 +1,6 @@
-/* ===== CSS Variables & Theme Setup ===== */
+/* CSS Start */
+/* Custom CSS */
 :root {
-  /* Ocean Blue Theme (Default) */
   --primary-color: #2c5aa0;
   --primary-dark: #1e4080;
   --primary-light: #4a7bc8;
@@ -32,7 +32,7 @@
   --border-radius-lg: 20px;
 }
 
-/* ===== Dark Theme Variables ===== */
+/* Dark Theme */
 [data-theme="dark"] {
   --text-primary: #f7fafc;
   --text-secondary: #cbd5e0;
@@ -42,7 +42,6 @@
   --border-color: #4a5568;
 }
 
-/* ===== Base Styles ===== */
 * {
   margin: 0;
   padding: 0;
@@ -62,7 +61,7 @@ body {
   min-height: 60vh;
 }
 
-/* ===== Announcement Bar ===== */
+/* Announcement Bar */
 .announcement-bar {
   background: linear-gradient(
     135deg,
@@ -115,7 +114,7 @@ body {
   background-color: #c62828;
 }
 
-/* ===== Mega Navbar ===== */
+/* Mega Navbar */
 .mega-navbar {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   padding: 1rem 0;
@@ -277,7 +276,7 @@ body {
   justify-content: center;
 }
 
-/* ===== Hero Slider ===== */
+/* Hero Slider */
 .hero-slider {
   background: linear-gradient(
     135deg,
@@ -390,7 +389,7 @@ body {
   animation: pulse 2s infinite;
 }
 
-/* ===== Features Section ===== */
+/* Features Section */
 .features-section {
   background: var(--bg-secondary);
 }
@@ -442,7 +441,7 @@ body {
   margin: 0;
 }
 
-/* ===== Categories Section ===== */
+/* Categories Section */
 .section-header {
   position: relative;
 }
@@ -519,7 +518,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-/* ===== Products Section ===== */
+/* Products Section */
 .products-section {
   background: var(--bg-primary);
 }
@@ -675,7 +674,7 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* ===== Newsletter Section ===== */
+/* Newsletter Section */
 .newsletter-section {
   background: linear-gradient(
     135deg,
@@ -758,7 +757,7 @@ body {
   text-align: center;
 }
 
-/* ===== Footer ===== */
+/* Footer */
 .footer {
   background: var(--bg-secondary);
   color: var(--text-primary);
@@ -862,7 +861,7 @@ body {
   color: var(--text-secondary);
 }
 
-/* ===== Animations ===== */
+/* Animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -894,7 +893,7 @@ body {
   }
 }
 
-/* ===== Responsive Design ===== */
+/* Responsive Design */
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2.5rem;
@@ -947,3 +946,5 @@ body {
     padding: 1.5rem;
   }
 }
+
+/* CSS End */

@@ -1,4 +1,6 @@
-// ===== Theme Management =====
+// JS Start
+// -------------------------------------------------------------->
+// Theme Management
 class ThemeManager {
   constructor() {
     this.currentTheme = "ocean-blue";
@@ -21,19 +23,16 @@ class ThemeManager {
   }
 
   bindEvents() {
-    // Theme color buttons
     document.querySelectorAll(".theme-btn").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         this.setTheme(e.target.dataset.theme);
       });
     });
 
-    // Dark mode toggle
     document.getElementById("darkModeToggle").addEventListener("click", () => {
       this.toggleDarkMode();
     });
 
-    // System preference detection
     if (window.matchMedia) {
       window
         .matchMedia("(prefers-color-scheme: dark)")
@@ -49,7 +48,6 @@ class ThemeManager {
   setTheme(themeName) {
     this.currentTheme = themeName;
 
-    // Update active state
     document.querySelectorAll(".theme-btn").forEach((btn) => {
       btn.classList.remove("active");
     });
@@ -78,10 +76,8 @@ class ThemeManager {
   applyTheme() {
     const html = document.documentElement;
 
-    // Apply color theme
     html.setAttribute("data-color-theme", this.currentTheme);
 
-    // Apply dark/light mode
     if (this.isDarkMode) {
       html.setAttribute("data-theme", "dark");
     } else {
@@ -95,7 +91,7 @@ class ThemeManager {
   }
 }
 
-// ===== Search Functionality =====
+// Search
 class SearchManager {
   constructor() {
     this.isOpen = false;
@@ -114,7 +110,6 @@ class SearchManager {
     searchToggle.addEventListener("click", () => this.toggleSearch());
     searchClose.addEventListener("click", () => this.closeSearch());
 
-    // Close search when clicking outside
     document.addEventListener("click", (e) => {
       if (!searchBar.contains(e.target) && !searchToggle.contains(e.target)) {
         this.closeSearch();
@@ -141,7 +136,7 @@ class SearchManager {
   }
 }
 
-// ===== Product Interactions =====
+// Product
 class ProductManager {
   constructor() {
     this.cart = [];
@@ -156,21 +151,18 @@ class ProductManager {
   }
 
   bindEvents() {
-    // Add to cart buttons
     document.querySelectorAll(".add-to-cart-btn").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         this.addToCart(e.target.closest(".product-card"));
       });
     });
 
-    // Wishlist buttons
     document.querySelectorAll(".wishlist-btn").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         this.toggleWishlist(e.target.closest(".product-card"));
       });
     });
 
-    // Quick view buttons
     document.querySelectorAll(".quick-view-btn").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         this.quickView(e.target.closest(".product-card"));
@@ -190,8 +182,6 @@ class ProductManager {
     this.saveCart();
     this.showNotification("Product added to cart!", "success");
     this.updateCartBadge();
-
-    // Add animation
     this.animateAddToCart(productCard);
   }
 
@@ -221,7 +211,6 @@ class ProductManager {
   }
 
   quickView(productCard) {
-    // In a real application, this would show a modal with product details
     this.showNotification("Quick view feature would open here", "info");
   }
 
@@ -252,7 +241,6 @@ class ProductManager {
   }
 
   showNotification(message, type = "info") {
-    // Create notification element
     const notification = document.createElement("div");
     notification.className = `notification notification-${type}`;
     notification.innerHTML = `
@@ -262,7 +250,6 @@ class ProductManager {
             </div>
         `;
 
-    // Add styles
     notification.style.cssText = `
             position: fixed;
             top: 100px;
@@ -280,12 +267,10 @@ class ProductManager {
 
     document.body.appendChild(notification);
 
-    // Animate in
     setTimeout(() => {
       notification.style.transform = "translateX(0)";
     }, 100);
 
-    // Remove after delay
     setTimeout(() => {
       notification.style.transform = "translateX(400px)";
       setTimeout(() => {
@@ -344,7 +329,7 @@ class ProductManager {
   }
 }
 
-// ===== Newsletter Form =====
+// Newsletter
 class NewsletterManager {
   constructor() {
     this.init();
@@ -365,8 +350,6 @@ class NewsletterManager {
     e.preventDefault();
     const formData = new FormData(e.target);
     const email = formData.get("email");
-
-    // Simulate API call
     this.showLoading();
 
     setTimeout(() => {
@@ -396,12 +379,11 @@ class NewsletterManager {
   }
 
   showSuccess() {
-    // I could integrate with the ProductManager's notification system
     alert("Thank you for subscribing! You will receive our newsletter soon.");
   }
 }
 
-// ===== Navigation Enhancements =====
+// Navigation
 class NavigationManager {
   constructor() {
     this.init();
@@ -426,8 +408,6 @@ class NavigationManager {
         }
       });
     });
-
-    // Navbar scroll effect
     window.addEventListener("scroll", () => this.handleScroll());
   }
 
@@ -445,7 +425,7 @@ class NavigationManager {
   }
 }
 
-// ===== Animation Manager =====
+// Animation Manager
 class AnimationManager {
   constructor() {
     this.init();
@@ -470,8 +450,6 @@ class AnimationManager {
         rootMargin: "0px 0px -50px 0px",
       }
     );
-
-    // Observe elements for animation
     document
       .querySelectorAll(".product-card, .feature-card, .category-card")
       .forEach((el) => {
@@ -480,7 +458,6 @@ class AnimationManager {
   }
 
   bindEvents() {
-    // Add hover effects
     document.querySelectorAll(".btn").forEach((btn) => {
       btn.addEventListener("mouseenter", this.createRipple);
     });
@@ -506,7 +483,6 @@ class AnimationManager {
   }
 }
 
-// ===== Initialize Everything =====
 document.addEventListener("DOMContentLoaded", function () {
   new ThemeManager();
   new SearchManager();
@@ -514,8 +490,6 @@ document.addEventListener("DOMContentLoaded", function () {
   new NewsletterManager();
   new NavigationManager();
   new AnimationManager();
-
-  // Add CSS for animations
   const style = document.createElement("style");
   style.textContent = `
         .ripple {
@@ -547,8 +521,6 @@ document.addEventListener("DOMContentLoaded", function () {
   document.head.appendChild(style);
 });
 
-// ===== Performance Optimization =====
-// Lazy loading for images
 if ("IntersectionObserver" in window) {
   const imageObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
@@ -566,12 +538,11 @@ if ("IntersectionObserver" in window) {
   });
 }
 
-// ===== Error Handling =====
 window.addEventListener("error", function (e) {
   console.error("Error occurred:", e.error);
 });
 
-// ===== Responsive Image Handling =====
+// Responsive Image Handling
 function handleImageFallbacks() {
   const images = document.querySelectorAll("img");
   images.forEach((img) => {
@@ -584,3 +555,6 @@ function handleImageFallbacks() {
 }
 
 document.addEventListener("DOMContentLoaded", handleImageFallbacks);
+
+// JS End
+// ------------------------------------------------------------------------------------------------->

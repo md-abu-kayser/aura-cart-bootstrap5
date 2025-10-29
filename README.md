@@ -1,8 +1,19 @@
-# AuraCart - Modern E-Commerce Website With Bootstrap 5
+# AuraCart | Modern Bootstrap 5 E-Commerce UI
 
-"A completely upgraded version of the original Panda E-commerce project with modern frontend technologies and professional features."
+A completely upgraded version of the original Panda E-commerce project with modern frontend technologies and professional features.
 
 ## Features
+
+## Git and Project Live Link
+
+```
+git clone https://github.com/go-kawser/AuraCart-Modern-Bootstrap5-E-Commerce-UI.git
+```
+
+```
+https://go-kawser.github.io/AuraCart-Modern-Bootstrap5-E-Commerce-UI/
+
+```
 
 ### Core Features
 
@@ -31,23 +42,6 @@
 - JavaScript (ES6+, DOM manipulation, LocalStorage)
 - Font Awesome Icons
 - Google Fonts (Poppins)
-
-### Project Structure
-
-panda-e-commerce-upgraded/
-├── index.html
-├── css/
-│ ├── styles.css
-│ └── themes.css
-├── js/
-│ └── script.js
-├── images/
-│ ├── bags/
-│ ├── banner-images/
-│ ├── categories/
-│ ├── shoes/
-│ └── logo.png
-└── README.md
 
 ### Themes Available
 
@@ -89,9 +83,10 @@ panda-e-commerce-upgraded/
 - Safari
 - Edge
 
-#### Support
+#### Support and Contact
 
-For any issues or questions, please check the JavaScript console for errors and ensure all file paths are correct.
+- **For any issues or questions, please check the JavaScript console for errors and ensure all file paths are correct.**
+- **Email:** abu.kayser.official@gmail.com
 
 ---
 
