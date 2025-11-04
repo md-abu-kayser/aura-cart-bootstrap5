@@ -1,19 +1,12 @@
-# AuraCart | Modern Bootstrap 5 E-Commerce UI
+# AuraCart - Modern Bootstrap 5 E-Commerce UI
 
-A completely upgraded version of the original Panda E-commerce project with modern frontend technologies and professional features.
+_A fully responsive, theme-based e-commerce frontend built with Bootstrap 5, CSS3, and vanilla JavaScript._
 
-## Features
+## Live Preview
 
-## Git and Project Live Link
+**Live Demo:** [AuraCart - GitHub Pages](https://md-abu-kayser.github.io/AuraCart-Modern-Bootstrap5-E-Commerce-UI/)
 
-```
-git clone https://github.com/go-kawser/AuraCart-Modern-Bootstrap5-E-Commerce-UI.git
-```
-
-```
-https://go-kawser.github.io/AuraCart-Modern-Bootstrap5-E-Commerce-UI/
-
-```
+**Repository:** [GitHub - AuraCart](https://github.com/md-abu-kayser/AuraCart-Modern-Bootstrap5-E-Commerce-UI)
 
 ### Core Features
 
@@ -37,7 +30,7 @@ https://go-kawser.github.io/AuraCart-Modern-Bootstrap5-E-Commerce-UI/
 ### Technologies Used
 
 - HTML5 (Semantic markup)
-- CSS3 (Custom properties, Flexbox, Grid, Animations)
+- CSS3 (Custom properties, Flex-box, Grid, Animations)
 - Bootstrap 5 (Components, Layout, Utilities)
 - JavaScript (ES6+, DOM manipulation, LocalStorage)
 - Font Awesome Icons
@@ -83,10 +76,28 @@ https://go-kawser.github.io/AuraCart-Modern-Bootstrap5-E-Commerce-UI/
 - Safari
 - Edge
 
-#### Support and Contact
+### License
 
-- **For any issues or questions, please check the JavaScript console for errors and ensure all file paths are correct.**
-- **Email:** abu.kayser.official@gmail.com
+- This project is licensed under the terms of the **[MIT License](./LICENSE)**.
+- You may replace or update the license as needed for client or proprietary projects.
+
+---
+
+### Contact and Maintainer
+
+**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
+**Name:** Md Abu Kayser - Full-Stack Engineer
+
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **Project:** _AuraCart-Modern-Bootstrap5-E-Commerce-UI_
+- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+
+If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
+
+---
+
+**Thank you for reviewing this project!**  
+It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for interviews, portfolio showcases, or professional demos.
 
 ---
 
