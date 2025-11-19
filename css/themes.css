@@ -1,5 +1,5 @@
 /* All Themes CSS Start */
-
+/* ----------------------------- */
 /* Ocean Blue Theme */
 [data-theme="ocean-blue"] {
   --primary-color: #2c5aa0;
@@ -96,5 +96,5 @@ body,
   transition: background-color 0.3s ease, color 0.3s ease,
     border-color 0.3s ease;
 }
-
+/* ------------------------------------ */
 /* All Themes CSS End */
