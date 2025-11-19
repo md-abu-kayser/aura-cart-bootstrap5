@@ -4,20 +4,20 @@ _A fully responsive, theme-based e-commerce frontend built with Bootstrap 5, CSS
 
 ## Live Preview
 
-**Live Demo:** [AuraCart - GitHub Pages](https://md-abu-kayser.github.io/AuraCart-Modern-Bootstrap5-E-Commerce-UI/)
+**Live Demo:** [AuraCart - GitHub Pages](https://md-abu-kayser.github.io/aura-cart-bootstrap5/)
 
-**Repository:** [GitHub - AuraCart](https://github.com/md-abu-kayser/AuraCart-Modern-Bootstrap5-E-Commerce-UI)
+**Repository:** [GitHub - AuraCart](https://github.com/md-abu-kayser/aura-cart-bootstrap5)
 
-### Core Features
+## Core Features
 
 - **Responsive Mega Navbar** with dropdown categories
 - **5 Color Themes** with dynamic switching
 - **Dark/Light Mode** toggle
 - **Advanced Bootstrap 5** components
-- **CSS3 Animations & Transitions**
+- **CSS3 Animations and Transitions**
 - **JavaScript Interactivity**
 
-### Technical Features
+## Technical Features
 
 - Theme system with localStorage persistence
 - Shopping cart functionality
@@ -27,7 +27,7 @@ _A fully responsive, theme-based e-commerce frontend built with Bootstrap 5, CSS
 - Performance optimized
 - Accessible UI components
 
-### Technologies Used
+## Technologies Used
 
 - HTML5 (Semantic markup)
 - CSS3 (Custom properties, Flex-box, Grid, Animations)
@@ -36,7 +36,7 @@ _A fully responsive, theme-based e-commerce frontend built with Bootstrap 5, CSS
 - Font Awesome Icons
 - Google Fonts (Poppins)
 
-### Themes Available
+## Themes Available
 
 1. **Ocean Blue** (Default) - Professional corporate look
 2. **Forest Green** - Eco-friendly and natural
@@ -44,7 +44,7 @@ _A fully responsive, theme-based e-commerce frontend built with Bootstrap 5, CSS
 4. **Sunset Orange** - Energetic and creative
 5. **Ruby Red** - Urgent and sales-focused
 
-### JavaScript Features
+## JavaScript Features
 
 - Theme management with localStorage
 - Shopping cart with badge updates
@@ -56,7 +56,7 @@ _A fully responsive, theme-based e-commerce frontend built with Bootstrap 5, CSS
 - Error handling
 - Performance optimizations
 
-### Responsive Breakpoints
+## Responsive Breakpoints
 
 - **Mobile**: < 768px
 - **Tablet**: 768px - 1024px
@@ -97,8 +97,10 @@ If you’d like this README tailored for a specific purpose - such as **hiring m
 ---
 
 **Thank you for reviewing this project!**  
-It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for interviews, portfolio showcases, or professional demos.
+It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for portfolio showcases, or professional demos.
 
 ---
 
 **Note**: This is a frontend-only implementation. For a production environment, you would need to integrate with a backend for cart persistence, user accounts, and order processing.
+
+---
