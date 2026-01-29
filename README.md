@@ -85,9 +85,9 @@ _A fully responsive, theme-based e-commerce frontend built with Bootstrap 5, CSS
 
 ### Contact and Maintainer
 
-**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
-**Name:** Md Abu Kayser - Full-Stack Engineer
+**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 
+- **Name:** Md Abu Kayser
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Project:** _aura-cart-bootstrap5_
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
