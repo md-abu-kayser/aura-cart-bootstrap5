@@ -83,13 +83,16 @@ _A fully responsive, theme-based e-commerce frontend built with Bootstrap 5, CSS
 
 ---
 
-### Contact and Maintainer
+### Contact & Maintainer
 
-- **Name:** Md Abu Kayser
-- **Project:** _Aura Cart Bootstrap5_
-- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
-- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
-- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+**Md Abu Kayser**  
+Frontend / Full-Stack Web Developer
+
+- **Project:** AuraCart (Bootstrap 5 E-Commerce UI)
+- **GitHub:** https://github.com/md-abu-kayser
+- **Email:** abu.kayser.official@gmail.com
+
+💼 Available for freelance work, UI customization, and backend integration.
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
