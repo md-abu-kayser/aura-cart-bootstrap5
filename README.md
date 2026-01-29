@@ -1,4 +1,4 @@
-# AuraCart - Modern Bootstrap5 E-Commerce UI
+# AuraCart - Modern Bootstrap 5 E-Commerce UI
 
 _A fully responsive, theme-based e-commerce frontend built with Bootstrap 5, CSS3, and vanilla JavaScript._
 
@@ -79,7 +79,7 @@ _A fully responsive, theme-based e-commerce frontend built with Bootstrap 5, CSS
 ### License
 
 - This project is licensed under the terms of the **[MIT License](./LICENSE)**.
-- You may replace or update the license as needed for client or proprietary projects.
+- You may replace or modify the license for client or proprietary projects as required.
 
 ---
 
@@ -92,17 +92,17 @@ Frontend / Full-Stack Web Developer
 - **GitHub:** https://github.com/md-abu-kayser
 - **Email:** abu.kayser.official@gmail.com
 
-💼 Available for freelance work, UI customization, and backend integration.
+**Available for freelance projects, UI customization, and backend integration.**
 
-If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
+If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** — feel free to request a custom tone or format.
 
 ---
 
 **Thank you for reviewing this project!**  
-It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for portfolio showcases, or professional demos.
+It’s designed to be **clean, well-structured**, and **pleasant to explore** - ideal for portfolio showcases and professional product demonstrations.
 
 ---
 
-**Note**: This is a frontend-only implementation. For a production environment, you would need to integrate with a backend for cart persistence, user accounts, and order processing.
+**Note:** This is a frontend-only implementation. For production use, backend integration is required for cart persistence, user accounts, and order processing.
 
 ---
