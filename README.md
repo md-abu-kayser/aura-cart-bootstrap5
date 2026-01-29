@@ -1,4 +1,4 @@
-# AuraCart - Modern Bootstrap 5 E-Commerce UI
+# AuraCart - Modern Bootstrap5 E-Commerce UI
 
 _A fully responsive, theme-based e-commerce frontend built with Bootstrap 5, CSS3, and vanilla JavaScript._
 
